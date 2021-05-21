@@ -1,6 +1,6 @@
 {
   "name": "@dbenfouzari/eslint-plugin-i18n",
-  "version": "4.1.0",
+  "version": "5.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "description": "dbenfouzari ESLint plugin for React-Native",

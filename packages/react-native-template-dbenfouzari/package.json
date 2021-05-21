@@ -1,6 +1,6 @@
 {
   "name": "@dbenfouzari/react-native-template-dbenfouzari",
-  "version": "4.4.1",
+  "version": "5.0.1",
   "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
   "files": [
     "template",

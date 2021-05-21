@@ -1,5 +1,55 @@
 # Changelog
 
+<a name="v5.0.1"></a>
+## v5.0.1 (2021-05-21)
+
+### Changed
+
+- 🔧 Made public publish [[9230101](https://github.com/dbenfouzari/packages/commit/92301017e68ea5cccc0704cd8aee26e42084f1f0)]
+  - `cli-tools`,
+  - `cli`,
+  - `eslint-config-react-native`,
+  - `eslint-plugin-i18n`,
+  - `i18n`,
+  - `lerna-gitmoji-changelog`,
+  - `react-native-i18n`,
+  - `react-native-template-dbenfouzari`
+- 🎨 Ran prettier [[64d28d3](https://github.com/dbenfouzari/packages/commit/64d28d372a44ddd25684f01e6dacd7fb81df14d4)]
+  - `cli-tools`,
+  - `cli`,
+  - `eslint-config-react-native`,
+  - `eslint-plugin-i18n`,
+  - `i18n`,
+  - `lerna-gitmoji-changelog`,
+  - `react-native-i18n`,
+  - `react-native-template-dbenfouzari`
+- 🔧 Update NPM registry [[7844bfd](https://github.com/dbenfouzari/packages/commit/7844bfde7dc9b86c64d69b1dd2bd19ea32707f69)]
+  - `cli-tools`,
+  - `cli`,
+  - `eslint-config-react-native`,
+  - `eslint-plugin-i18n`,
+  - `i18n`,
+  - `lerna-gitmoji-changelog`,
+  - `react-native-i18n`,
+  - `react-native-template-dbenfouzari`
+- ♻️ Rename packages [[07c258a](https://github.com/dbenfouzari/packages/commit/07c258a6f9e98b27ad02333897e65259e9802505)]
+  - `cli-tools`,
+  - `cli`,
+  - `eslint-config-react-native`,
+  - `eslint-plugin-i18n`,
+  - `lerna-gitmoji-changelog`,
+  - `react-native-i18n`,
+  - `react-native-template-dbenfouzari`
+- ⬆️ Bump @oclif/dev-cli from 1.23.1 to 1.24.1 (#114) [[a529c1f](https://github.com/dbenfouzari/packages/commit/a529c1f70732bc0a617922de0297bb5357ce8ef9)]
+- ⬆️ Bump @types/node from 14.14.8 to 14.14.9 (#112) [[9a911e4](https://github.com/dbenfouzari/packages/commit/9a911e4ebf3804f8e3350ae6828200b6236956b9)]
+- ⬆️ Bump @types/node from 14.14.7 to 14.14.8 (#111) [[2ae6b2e](https://github.com/dbenfouzari/packages/commit/2ae6b2ec0f000dd2b03ec11ca248dc1681bee552)]
+- ⬆️ Bump @oclif/dev-cli from 1.23.0 to 1.23.1 (#110) [[2497c0c](https://github.com/dbenfouzari/packages/commit/2497c0cda29f206901f98749e93f9fe85c018c48)]
+
+### Added
+
+- ✨ Add i18n package [[de7daec](https://github.com/dbenfouzari/packages/commit/de7daece5327a4002668cb3dbf5dc3363193b799)]
+  - `i18n`
+
 <a name="v4.4.3"></a>
 
 ## v4.4.3 (2020-11-16)
