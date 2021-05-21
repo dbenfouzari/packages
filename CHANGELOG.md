@@ -1,6 +1,7 @@
 # Changelog
 
 <a name="v4.4.3"></a>
+
 ## v4.4.3 (2020-11-16)
 
 ### Fixed
@@ -9,6 +10,7 @@
   - `cli`
 
 <a name="v4.4.2"></a>
+
 ## v4.4.2 (2020-11-16)
 
 ### Added
@@ -18,6 +20,7 @@
   - `react-native-i18n`
 
 <a name="v4.4.1"></a>
+
 ## v4.4.1 (2020-11-16)
 
 ### Added
@@ -26,6 +29,7 @@
   - `react-native-template-dbenfouzari`
 
 <a name="v4.4.0"></a>
+
 ## v4.4.0 (2020-11-16)
 
 ### Changed
@@ -78,6 +82,7 @@
   - `cli`
 
 <a name="v4.2.0-alpha.0"></a>
+
 ## v4.2.0-alpha.0 (2020-11-13)
 
 ### Added
@@ -113,6 +118,7 @@
   - `cli`
 
 <a name="v4.1.4"></a>
+
 ## v4.1.4 (2020-11-11)
 
 ### Added
@@ -122,6 +128,7 @@
   - `cli`
 
 <a name="v4.1.3"></a>
+
 ## v4.1.3 (2020-11-11)
 
 ### Changed
@@ -130,6 +137,7 @@
   - `react-native-template-dbenfouzari`
 
 <a name="v4.1.2"></a>
+
 ## v4.1.2 (2020-11-11)
 
 ### Added
@@ -138,6 +146,7 @@
   - `react-native-template-dbenfouzari`
 
 <a name="v4.1.1"></a>
+
 ## v4.1.1 (2020-11-11)
 
 ### Changed
@@ -146,6 +155,7 @@
   - `react-native-template-dbenfouzari`
 
 <a name="v4.1.0"></a>
+
 ## v4.1.0 (2020-11-11)
 
 ### Changed
@@ -159,6 +169,7 @@
   - `react-native-template-dbenfouzari`
 
 <a name="v4.0.6"></a>
+
 ## v4.0.6 (2020-11-11)
 
 ### Changed
@@ -167,6 +178,7 @@
   - `cli`
 
 <a name="v4.0.5"></a>
+
 ## v4.0.5 (2020-11-11)
 
 ### Changed
@@ -175,6 +187,7 @@
   - `cli`
 
 <a name="v4.0.4"></a>
+
 ## v4.0.4 (2020-11-11)
 
 ### Changed
@@ -183,6 +196,7 @@
   - `cli`
 
 <a name="v4.0.3"></a>
+
 ## v4.0.3 (2020-11-11)
 
 ### Changed
@@ -191,6 +205,7 @@
   - `cli`
 
 <a name="v4.0.2"></a>
+
 ## v4.0.2 (2020-11-11)
 
 ### Changed
@@ -199,6 +214,7 @@
   - `cli`
 
 <a name="v4.0.1"></a>
+
 ## v4.0.1 (2020-11-11)
 
 ### Changed
@@ -207,6 +223,7 @@
   - `cli`
 
 <a name="v4.0.0"></a>
+
 ## v4.0.0 (2020-11-11)
 
 ### Changed
@@ -223,6 +240,7 @@
   - `cli`
 
 <a name="v3.5.0"></a>
+
 ## v3.5.0 (2020-11-06)
 
 ### Changed
@@ -271,6 +289,7 @@
   - `eslint-config-react-native`
 
 <a name="v3.4.2"></a>
+
 ## v3.4.2 (2020-10-13)
 
 ### Changed
@@ -324,6 +343,7 @@
   - `cli-tools`
 
 <a name="v3.4.1"></a>
+
 ## v3.4.1 (2020-09-03)
 
 ### Added
@@ -362,6 +382,7 @@
   - `react-native-template-dbenfouzari`
 
 <a name="v3.4.0"></a>
+
 ## v3.4.0 (2020-09-02)
 
 ### Added
@@ -372,6 +393,7 @@
   - `lerna-gitmoji-changelog`
 
 <a name="v3.3.6"></a>
+
 ## v3.3.6 (2020-08-29)
 
 ### Changed
@@ -397,6 +419,7 @@
   - `lerna-gitmoji-changelog`
 
 <a name="3.3.4"></a>
+
 ## 3.3.4 (2020-08-28)
 
 ### Added
@@ -408,32 +431,32 @@
 
 - 🔧 Better TypeScript coding [[4cbccfc](https://github.com/dbenfouzari/packages/commit/4cbccfc58f0347227a3a4fb242d0c0a395d1a40a)]
 
-
 <a name="3.3.3"></a>
+
 ## 3.3.3 (2020-08-26)
 
 ### Added
 
 - ✨ Better config [[769147f](https://github.com/dbenfouzari/packages/commit/769147f4960c28f825e346dc5012d1407137a2d4)]
 
-
 <a name="3.3.2"></a>
+
 ## 3.3.2 (2020-08-26)
 
 ### Fixed
 
 - 🐛 Add missing dependency [[f4d835d](https://github.com/dbenfouzari/packages/commit/f4d835d6d4e28a0179eebc1fef5a42d01156ff7a)]
 
-
 <a name="3.3.1"></a>
+
 ## 3.3.1 (2020-08-26)
 
 ### Changed
 
 - 🔧 Build before publish [[48b8325](https://github.com/dbenfouzari/packages/commit/48b83253732681b2f06c2046af5a4754e0a16551)]
 
-
 <a name="3.3.0"></a>
+
 ## 3.3.0 (2020-08-26)
 
 ### Added
@@ -444,8 +467,8 @@
 
 - 🎨 Explicit tests [[0b8f49f](https://github.com/dbenfouzari/packages/commit/0b8f49ff949136339b730d3999dbb61ce7ac1cb9)]
 
-
 <a name="3.2.0"></a>
+
 ## 3.2.0 (2020-08-26)
 
 ### Added
@@ -461,22 +484,22 @@
 
 ### Miscellaneous
 
--  Update README.md [[69364d6](https://github.com/dbenfouzari/packages/commit/69364d6c59aea48ffcb63b0f916c981e7e4fe499)]
--  Update issue templates [[3fd8363](https://github.com/dbenfouzari/packages/commit/3fd8363e223aa39a759252f5c7121aa5b51ec438)]
--  Create CODE_OF_CONDUCT.md [[de8c3f2](https://github.com/dbenfouzari/packages/commit/de8c3f2800eaff7ed6ab68a38b167896240e0c1b)]
--  Merge pull request [#3](https://github.com/dbenfouzari/packages/issues/3) from dbenfouzari/dependabot/add-v2-config-file [[096dc73](https://github.com/dbenfouzari/packages/commit/096dc7322995d69d3749e9915489c3582dde8343)]
--  Create Dependabot config file [[06fae0c](https://github.com/dbenfouzari/packages/commit/06fae0cb63b9e65309058677688fe88b72f922f2)]
-
+- Update README.md [[69364d6](https://github.com/dbenfouzari/packages/commit/69364d6c59aea48ffcb63b0f916c981e7e4fe499)]
+- Update issue templates [[3fd8363](https://github.com/dbenfouzari/packages/commit/3fd8363e223aa39a759252f5c7121aa5b51ec438)]
+- Create CODE_OF_CONDUCT.md [[de8c3f2](https://github.com/dbenfouzari/packages/commit/de8c3f2800eaff7ed6ab68a38b167896240e0c1b)]
+- Merge pull request [#3](https://github.com/dbenfouzari/packages/issues/3) from dbenfouzari/dependabot/add-v2-config-file [[096dc73](https://github.com/dbenfouzari/packages/commit/096dc7322995d69d3749e9915489c3582dde8343)]
+- Create Dependabot config file [[06fae0c](https://github.com/dbenfouzari/packages/commit/06fae0cb63b9e65309058677688fe88b72f922f2)]
 
 <a name="3.1.2"></a>
+
 ## 3.1.2 (2020-08-26)
 
 ### Changed
 
 - 🎨 Add prettier integration in template [[b9cee71](https://github.com/dbenfouzari/packages/commit/b9cee7137fd49086d108f1cfb4f956c3f0281636)]
 
-
 <a name="3.1.1"></a>
+
 ## 3.1.1 (2020-08-26)
 
 ### Added
@@ -485,19 +508,19 @@
 
 ### Miscellaneous
 
--  Update README.md [[1b3893b](https://github.com/dbenfouzari/packages/commit/1b3893bde35f42b5bf28f92944b0f67154b0f694)]
--  Update README.md [[d14956d](https://github.com/dbenfouzari/packages/commit/d14956d567b4d92c5e9870f3cd87ae076d2c9089)]
-
+- Update README.md [[1b3893b](https://github.com/dbenfouzari/packages/commit/1b3893bde35f42b5bf28f92944b0f67154b0f694)]
+- Update README.md [[d14956d](https://github.com/dbenfouzari/packages/commit/d14956d567b4d92c5e9870f3cd87ae076d2c9089)]
 
 <a name="3.1.0"></a>
+
 ## 3.1.0 (2020-08-25)
 
 ### Miscellaneous
 
 - 📦 Newcomer : react-native-template-dbenfouzari [[7f09818](https://github.com/dbenfouzari/packages/commit/7f098181ad1cea4f63a219b81fec6e9e5ae9b107)]
 
-
 <a name="3.0.0"></a>
+
 ## 3.0.0 (2020-08-25)
 
 ### Changed
@@ -511,16 +534,16 @@
 
 - 🐛 Rename publish commit [[d637be6](https://github.com/dbenfouzari/packages/commit/d637be60c3233fc8b06a097abd2296ae533f8f62)]
 
-
 <a name="2.0.5"></a>
+
 ## 2.0.5 (2020-08-24)
 
 ### Miscellaneous
 
 - 🚀 Automatically publish without asking [[b7af0cf](https://github.com/dbenfouzari/packages/commit/b7af0cf81ab4d6a3cab10199ba2eca21b5e0db92)]
 
-
 <a name="2.0.4"></a>
+
 ## 2.0.4 (2020-08-24)
 
 ### Added
@@ -536,8 +559,8 @@
 
 - 🚀 Force publish all packages [[27adfc4](https://github.com/dbenfouzari/packages/commit/27adfc4bb4aa65155af311e54c3718a1e47c16be)]
 
-
 <a name="2.0.3"></a>
+
 ## 2.0.3 (2020-08-24)
 
 ### Fixed
@@ -548,8 +571,8 @@
 
 - 🍻 Just to test [[1110c1d](https://github.com/dbenfouzari/packages/commit/1110c1d2c58f1fe445766eee43ec3b7dea47bf3f)]
 
-
 <a name="2.0.2"></a>
+
 ## 2.0.2 (2020-08-24)
 
 ### Added
@@ -571,8 +594,8 @@
 
 - 📝 Update README with installation instructions [[09efd9f](https://github.com/dbenfouzari/packages/commit/09efd9fc288ab4e8b74530481e87479447fb414b)]
 
-
 <a name="2.0.0"></a>
+
 ## 2.0.0 (2020-08-24)
 
 ### Added
@@ -588,8 +611,6 @@
 
 ### Miscellaneous
 
--  v2.0.0 [[8c8bd85](https://github.com/dbenfouzari/packages/commit/8c8bd85123e861ee62b156259e02a0a367ad1ac9)]
+- v2.0.0 [[8c8bd85](https://github.com/dbenfouzari/packages/commit/8c8bd85123e861ee62b156259e02a0a367ad1ac9)]
 - 📝 Add README [[937b103](https://github.com/dbenfouzari/packages/commit/937b10363cb4b63b8e996b42332a16c6071f200d)]
--  👷  Add commitizen [[7d85c11](https://github.com/dbenfouzari/packages/commit/7d85c11131ded96183a585d2c63e012e5faeddbb)]
-
-
+- 👷 Add commitizen [[7d85c11](https://github.com/dbenfouzari/packages/commit/7d85c11131ded96183a585d2c63e012e5faeddbb)]

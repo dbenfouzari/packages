@@ -10,7 +10,5 @@
     "esModuleInterop": true,
     "lib": ["esnext"]
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }

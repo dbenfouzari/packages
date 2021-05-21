@@ -5,7 +5,6 @@
 
 ## Installation
 
-
 Since the packages are stored into [Github Packages](https://github.com/features/packages), you have to follow a few more steps to make it work.
 
 1. In a command line, type

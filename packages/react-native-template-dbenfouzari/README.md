@@ -1,4 +1,5 @@
 # :space_invader: React Native Template dbenfouzari
+
 > Clean and minimalist React Native template for a quick start with TypeScript.
 
 ## :star: Features
@@ -26,11 +27,12 @@ npx react-native init MyApp --template @dbenfouzari/react-native-template-dbenfo
 ## What's included ?
 
 It has many cool things included :
-* @dbenfouzari/eslint-config-react-native
-* @dbenfouzari/cli-tools
-* Storybook
-* react-native-config
-* react-native-navigation
-* @testing-library/react-native
+
+- @dbenfouzari/eslint-config-react-native
+- @dbenfouzari/cli-tools
+- Storybook
+- react-native-config
+- react-native-navigation
+- @testing-library/react-native
 
 I'm open to make it grow and get better ! So make me issues and PRs :)

@@ -113,8 +113,9 @@ You can use variables in your translations like this :
 ```
 
 And in your JavaScript :
+
 ```tsx
-const myTranslatedKey = i18n.t('greetings', { name: "John Doe" })
+const myTranslatedKey = i18n.t("greetings", { name: "John Doe" });
 ```
 
 You will get `Hi John Doe`
@@ -122,6 +123,6 @@ You will get `Hi John Doe`
 ## API
 
 | Method                                                                               | Description                                        |
-|--------------------------------------------------------------------------------------|----------------------------------------------------|
+| ------------------------------------------------------------------------------------ | -------------------------------------------------- |
 | configure(options: { dictionaries: T, locale: keyof T }) => void                     | Configuration method                               |
 | t(path: keyof T[keyof T] \| string, variables?: { [key: string]: string }) => string | The method you will call to translate your strings |

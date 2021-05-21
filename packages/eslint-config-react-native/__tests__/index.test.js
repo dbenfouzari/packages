@@ -8,8 +8,7 @@ describe("Normal config", () => {
   });
 
   it("should result to something in ts", async () => {
-    const invalidTs =
-      "packages/eslint-config-react-native/example/recommended-example.tsx";
+    const invalidTs = "packages/eslint-config-react-native/example/recommended-example.tsx";
     const result = await eslint.lintFiles([invalidTs]);
 
     expect(result).toEqual([
@@ -19,8 +18,7 @@ describe("Normal config", () => {
           {
             ruleId: "import/order",
             severity: 2,
-            message:
-              "There should be at least one empty line between import groups",
+            message: "There should be at least one empty line between import groups",
             line: 1,
             column: 1,
             nodeType: "ImportDeclaration",
@@ -31,8 +29,7 @@ describe("Normal config", () => {
           {
             ruleId: "import/order",
             severity: 2,
-            message:
-              "`./index` import should occur after import of `react-native`",
+            message: "`./index` import should occur after import of `react-native`",
             line: 1,
             column: 1,
             nodeType: "ImportDeclaration",
@@ -82,8 +79,7 @@ describe("Normal config", () => {
           {
             ruleId: "react-native/no-raw-text",
             severity: 2,
-            message:
-              "Raw text (Hello world) cannot be used outside of a <Text> tag",
+            message: "Raw text (Hello world) cannot be used outside of a <Text> tag",
             line: 12,
             column: 28,
             nodeType: "JSXText",
@@ -130,8 +126,7 @@ describe("With i18n", () => {
   });
 
   it("should result to something in ts", async () => {
-    const invalidTs =
-      "packages/eslint-config-react-native/example/recommended-example.tsx";
+    const invalidTs = "packages/eslint-config-react-native/example/recommended-example.tsx";
     const result = await eslint.lintFiles([invalidTs]);
 
     expect(result).toEqual([
@@ -141,8 +136,7 @@ describe("With i18n", () => {
           {
             ruleId: "import/order",
             severity: 2,
-            message:
-              "There should be at least one empty line between import groups",
+            message: "There should be at least one empty line between import groups",
             line: 1,
             column: 1,
             nodeType: "ImportDeclaration",
@@ -153,8 +147,7 @@ describe("With i18n", () => {
           {
             ruleId: "import/order",
             severity: 2,
-            message:
-              "`./index` import should occur after import of `react-native`",
+            message: "`./index` import should occur after import of `react-native`",
             line: 1,
             column: 1,
             nodeType: "ImportDeclaration",
@@ -214,8 +207,7 @@ describe("With i18n", () => {
           {
             ruleId: "react-native/no-raw-text",
             severity: 2,
-            message:
-              "Raw text (Hello world) cannot be used outside of a <Text> tag",
+            message: "Raw text (Hello world) cannot be used outside of a <Text> tag",
             line: 12,
             column: 28,
             nodeType: "JSXText",

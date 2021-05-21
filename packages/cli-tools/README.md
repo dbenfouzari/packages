@@ -1,5 +1,5 @@
 > ⚠️ **This package is now deprecated in favor of [`@dbenfouzari/cli`](https://github.com/dbenfouzari/packages/tree/master/packages/cli)** <br>
-It will be removed in a future release
+> It will be removed in a future release
 
 # @dbenfouzari/cli-tools
 
