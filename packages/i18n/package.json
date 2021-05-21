@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/i18n#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT",
   "main": "lib/index.js",

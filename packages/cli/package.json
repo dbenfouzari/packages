@@ -51,7 +51,7 @@
   },
   "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/cli#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "oclif"

@@ -37,6 +37,6 @@
   },
   "browserslist": "> 0.25%, not dead",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   }
 }
