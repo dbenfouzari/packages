@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/react-native-i18n#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "keywords": [
     "oclif"

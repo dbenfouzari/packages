@@ -20,7 +20,8 @@
     "url": "https://github.com/dbenfouzari/packages/issues"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/lerna-gitmoji-changelog#readme",
   "dependencies": {

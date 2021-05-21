@@ -18,7 +18,8 @@
   "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/cli-tools#readme",
   "browserslist": "> 0.25%, not dead",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "bin": {
     "generate-component": "lib/generate-component.js",
