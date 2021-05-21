@@ -25,10 +25,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
           always-auth: true
           registry-url: https://npm.pkg.github.com
-          scope: "@derniercri"
+          scope: "@dbenfouzari"
 
       - name: Create project
-        run: cd $GITHUB_WORKSPACE && NODE_ENV=development npx react-native init NativeProject --template $GITHUB_WORKSPACE/dcri-packages/packages/react-native-template-derniercri
+        run: cd $GITHUB_WORKSPACE && NODE_ENV=development npx react-native init NativeProject --template $GITHUB_WORKSPACE/dcri-packages/packages/react-native-template-dbenfouzari
         env:
           NODE_ENV: development
 

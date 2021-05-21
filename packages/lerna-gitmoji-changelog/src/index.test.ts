@@ -71,9 +71,9 @@ describe("generateChangelog", () => {
       () => `ac6fdcd (HEAD -> master, tag: v3.3.4, origin/master) :bookmark: Publish v3.3.4
 CHANGELOG.md
 packages/cli-tools/package.json
-packages/react-native-template-derniercri/package.json
+packages/react-native-template-dbenfouzari/package.json
 2458c93 :white_check_mark: Better tests
-packages/react-native-template-derniercri/template/_eslintrc.js
+packages/react-native-template-dbenfouzari/template/_eslintrc.js
 4cbccfc :wrench: Better TypeScript coding
 package.json
 `
@@ -89,12 +89,12 @@ package.json
 
 ### Added
 
-- ✅ Better tests [[2458c93](https://github.com/derniercri/packages/commit/2458c9391ecf8bfdcca540e186e7ad50efca70ff)]
-- ✅ Fixed tests [[e6138ef](https://github.com/derniercri/packages/commit/e6138ef2c1ce58612cc7dcc66e63ae7087061d07)]
+- ✅ Better tests [[2458c93](https://github.com/dbenfouzari/packages/commit/2458c9391ecf8bfdcca540e186e7ad50efca70ff)]
+- ✅ Fixed tests [[e6138ef](https://github.com/dbenfouzari/packages/commit/e6138ef2c1ce58612cc7dcc66e63ae7087061d07)]
 
 ### Changed
 
-- 🔧 Better TypeScript coding [[4cbccfc](https://github.com/derniercri/packages/commit/4cbccfc58f0347227a3a4fb242d0c0a395d1a40a)]
+- 🔧 Better TypeScript coding [[4cbccfc](https://github.com/dbenfouzari/packages/commit/4cbccfc58f0347227a3a4fb242d0c0a395d1a40a)]
 
 
 <a name="3.3.3"></a>
@@ -102,7 +102,7 @@ package.json
 
 ### Added
 
-- ✨ Better config [[769147f](https://github.com/derniercri/packages/commit/769147f4960c28f825e346dc5012d1407137a2d4)]
+- ✨ Better config [[769147f](https://github.com/dbenfouzari/packages/commit/769147f4960c28f825e346dc5012d1407137a2d4)]
 
 `
     );
@@ -117,12 +117,12 @@ package.json
 
 ### Added
 
-- ✅ Better tests [[2458c93](https://github.com/derniercri/packages/commit/ac6fdcd)]
+- ✅ Better tests [[2458c93](https://github.com/dbenfouzari/packages/commit/ac6fdcd)]
   - \`toto\`
 
 ### Changed
 
-- 🔧 Better TypeScript coding [[4cbccfc](https://github.com/derniercri/packages/commit/ac6fdcd)]
+- 🔧 Better TypeScript coding [[4cbccfc](https://github.com/dbenfouzari/packages/commit/ac6fdcd)]
   - \`toto\`
 
 <a name="3.3.4"></a>
@@ -130,12 +130,12 @@ package.json
 
 ### Added
 
-- ✅ Better tests [[2458c93](https://github.com/derniercri/packages/commit/2458c9391ecf8bfdcca540e186e7ad50efca70ff)]
-- ✅ Fixed tests [[e6138ef](https://github.com/derniercri/packages/commit/e6138ef2c1ce58612cc7dcc66e63ae7087061d07)]
+- ✅ Better tests [[2458c93](https://github.com/dbenfouzari/packages/commit/2458c9391ecf8bfdcca540e186e7ad50efca70ff)]
+- ✅ Fixed tests [[e6138ef](https://github.com/dbenfouzari/packages/commit/e6138ef2c1ce58612cc7dcc66e63ae7087061d07)]
 
 ### Changed
 
-- 🔧 Better TypeScript coding [[4cbccfc](https://github.com/derniercri/packages/commit/4cbccfc58f0347227a3a4fb242d0c0a395d1a40a)]
+- 🔧 Better TypeScript coding [[4cbccfc](https://github.com/dbenfouzari/packages/commit/4cbccfc58f0347227a3a4fb242d0c0a395d1a40a)]
 
 
 <a name="3.3.3"></a>
@@ -143,7 +143,7 @@ package.json
 
 ### Added
 
-- ✨ Better config [[769147f](https://github.com/derniercri/packages/commit/769147f4960c28f825e346dc5012d1407137a2d4)]
+- ✨ Better config [[769147f](https://github.com/dbenfouzari/packages/commit/769147f4960c28f825e346dc5012d1407137a2d4)]
 
 `);
   });

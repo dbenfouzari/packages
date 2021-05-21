@@ -53,7 +53,7 @@ export default class SetupSplash extends Command {
             ) {
               this.error("Incompatible", {
                 suggestions: [
-                  "This may be because you created your project with a `react-native-template-derniercri` version < 4.3.0",
+                  "This may be because you created your project with a `react-native-template-dbenfouzari` version < 4.3.0",
                 ],
               });
             }

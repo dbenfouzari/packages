@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['@derniercri/react-native'],
+  extends: ['@dbenfouzari/react-native'],
   rules: {
     'react-native/no-raw-text': ['error', { skip: ['Button'] }],
   },

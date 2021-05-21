@@ -1,6 +1,6 @@
 module.exports = {
-  plugins: ["@derniercri/i18n"],
+  plugins: ["@dbenfouzari/i18n"],
   rules: {
-    "@derniercri/i18n/no-child-string": "off",
+    "@dbenfouzari/i18n/no-child-string": "off",
   },
 };

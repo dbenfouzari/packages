@@ -1,9 +1,9 @@
-# @derniercri/cli
+# @dbenfouzari/cli
 
 Some CLI to help your development process
 
 <!-- toc -->
-* [@derniercri/cli](#derniercricli)
+* [@dbenfouzari/cli](#dbenfouzaricli)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
@@ -12,14 +12,14 @@ Some CLI to help your development process
 
 <!-- usage -->
 ```sh-session
-$ npm install -g @derniercri/cli
-$ derniercri COMMAND
+$ npm install -g @dbenfouzari/cli
+$ dbenfouzari COMMAND
 running command...
-$ derniercri (-v|--version|version)
-@derniercri/cli/4.4.3 darwin-x64 node-v14.8.0
-$ derniercri --help [COMMAND]
+$ dbenfouzari (-v|--version|version)
+@dbenfouzari/cli/4.4.3 darwin-x64 node-v14.8.0
+$ dbenfouzari --help [COMMAND]
 USAGE
-  $ derniercri COMMAND
+  $ dbenfouzari COMMAND
 ...
 ```
 <!-- usagestop -->
@@ -27,22 +27,22 @@ USAGE
 # Commands
 
 <!-- commands -->
-* [`derniercri generate:native-component [NAME] [PATH]`](#derniercri-generatenative-component-name-path)
-* [`derniercri help [COMMAND]`](#derniercri-help-command)
-* [`derniercri i18n:check`](#derniercri-i18ncheck)
-* [`derniercri i18n:generate-missing`](#derniercri-i18ngenerate-missing)
-* [`derniercri setup:fastlane`](#derniercri-setupfastlane)
-* [`derniercri setup:i18n`](#derniercri-setupi18n)
-* [`derniercri setup:sentry`](#derniercri-setupsentry)
-* [`derniercri setup:splash`](#derniercri-setupsplash)
+* [`dbenfouzari generate:native-component [NAME] [PATH]`](#dbenfouzari-generatenative-component-name-path)
+* [`dbenfouzari help [COMMAND]`](#dbenfouzari-help-command)
+* [`dbenfouzari i18n:check`](#dbenfouzari-i18ncheck)
+* [`dbenfouzari i18n:generate-missing`](#dbenfouzari-i18ngenerate-missing)
+* [`dbenfouzari setup:fastlane`](#dbenfouzari-setupfastlane)
+* [`dbenfouzari setup:i18n`](#dbenfouzari-setupi18n)
+* [`dbenfouzari setup:sentry`](#dbenfouzari-setupsentry)
+* [`dbenfouzari setup:splash`](#dbenfouzari-setupsplash)
 
-## `derniercri generate:native-component [NAME] [PATH]`
+## `dbenfouzari generate:native-component [NAME] [PATH]`
 
 Generate a React Native component in desired folder
 
 ```
 USAGE
-  $ derniercri generate:native-component [NAME] [PATH]
+  $ dbenfouzari generate:native-component [NAME] [PATH]
 
 ARGUMENTS
   NAME  Component name
@@ -55,13 +55,13 @@ OPTIONS
 
 EXAMPLES
   # By passing arguments
-     $ derniercri generate:native-component button src/components
+     $ dbenfouzari generate:native-component button src/components
 
   # By passing flags
-     $ derniercri generate:native-component --name=button --path=src/components
+     $ dbenfouzari generate:native-component --name=button --path=src/components
 
   # By following wizard
-     $ derniercri generate:native-component
+     $ dbenfouzari generate:native-component
 
      ? What is the component name ? button
      ? Select a target directory src/components/
@@ -78,15 +78,15 @@ EXAMPLES
     ┗ ...
 ```
 
-_See code: [src/commands/generate/native-component.ts](https://github.com/derniercri/packages/blob/v4.4.3/src/commands/generate/native-component.ts)_
+_See code: [src/commands/generate/native-component.ts](https://github.com/dbenfouzari/packages/blob/v4.4.3/src/commands/generate/native-component.ts)_
 
-## `derniercri help [COMMAND]`
+## `dbenfouzari help [COMMAND]`
 
-display help for derniercri
+display help for dbenfouzari
 
 ```
 USAGE
-  $ derniercri help [COMMAND]
+  $ dbenfouzari help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
@@ -97,13 +97,13 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src/commands/help.ts)_
 
-## `derniercri i18n:check`
+## `dbenfouzari i18n:check`
 
 Checks your code for missing translations
 
 ```
 USAGE
-  $ derniercri i18n:check
+  $ dbenfouzari i18n:check
 
 OPTIONS
   -d, --dictionaries=dictionaries  (required) Your dictionaries root path
@@ -111,18 +111,18 @@ OPTIONS
   --src=src                        [default: ./src] Your source path
 
 EXAMPLE
-  $ derniercri i18n:check -d ./src/i18n/dictionaries
+  $ dbenfouzari i18n:check -d ./src/i18n/dictionaries
 ```
 
-_See code: [src/commands/i18n/check.ts](https://github.com/derniercri/packages/blob/v4.4.3/src/commands/i18n/check.ts)_
+_See code: [src/commands/i18n/check.ts](https://github.com/dbenfouzari/packages/blob/v4.4.3/src/commands/i18n/check.ts)_
 
-## `derniercri i18n:generate-missing`
+## `dbenfouzari i18n:generate-missing`
 
 Generates missing translations in your code
 
 ```
 USAGE
-  $ derniercri i18n:generate-missing
+  $ dbenfouzari i18n:generate-missing
 
 OPTIONS
   -d, --dictionaries=dictionaries  (required) Your dictionaries root path
@@ -130,64 +130,64 @@ OPTIONS
   --src=src                        [default: ./src] Your source path
 
 EXAMPLE
-  $ derniercri i18n:generate-missing -d ./src/i18n/dictionaries
+  $ dbenfouzari i18n:generate-missing -d ./src/i18n/dictionaries
 ```
 
-_See code: [src/commands/i18n/generate-missing.ts](https://github.com/derniercri/packages/blob/v4.4.3/src/commands/i18n/generate-missing.ts)_
+_See code: [src/commands/i18n/generate-missing.ts](https://github.com/dbenfouzari/packages/blob/v4.4.3/src/commands/i18n/generate-missing.ts)_
 
-## `derniercri setup:fastlane`
+## `dbenfouzari setup:fastlane`
 
 Initialize fastlane
 
 ```
 USAGE
-  $ derniercri setup:fastlane
+  $ dbenfouzari setup:fastlane
 
 OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/setup/fastlane.ts](https://github.com/derniercri/packages/blob/v4.4.3/src/commands/setup/fastlane.ts)_
+_See code: [src/commands/setup/fastlane.ts](https://github.com/dbenfouzari/packages/blob/v4.4.3/src/commands/setup/fastlane.ts)_
 
-## `derniercri setup:i18n`
+## `dbenfouzari setup:i18n`
 
 Initialize i18n
 
 ```
 USAGE
-  $ derniercri setup:i18n
+  $ dbenfouzari setup:i18n
 
 OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/setup/i18n.ts](https://github.com/derniercri/packages/blob/v4.4.3/src/commands/setup/i18n.ts)_
+_See code: [src/commands/setup/i18n.ts](https://github.com/dbenfouzari/packages/blob/v4.4.3/src/commands/setup/i18n.ts)_
 
-## `derniercri setup:sentry`
+## `dbenfouzari setup:sentry`
 
 Setup Sentry (https://sentry.io/)
 
 ```
 USAGE
-  $ derniercri setup:sentry
+  $ dbenfouzari setup:sentry
 
 OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/setup/sentry.ts](https://github.com/derniercri/packages/blob/v4.4.3/src/commands/setup/sentry.ts)_
+_See code: [src/commands/setup/sentry.ts](https://github.com/dbenfouzari/packages/blob/v4.4.3/src/commands/setup/sentry.ts)_
 
-## `derniercri setup:splash`
+## `dbenfouzari setup:splash`
 
 Setup react-native-splash-screen
 
 ```
 USAGE
-  $ derniercri setup:splash
+  $ dbenfouzari setup:splash
 
 OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/setup/splash.ts](https://github.com/derniercri/packages/blob/v4.4.3/src/commands/setup/splash.ts)_
+_See code: [src/commands/setup/splash.ts](https://github.com/dbenfouzari/packages/blob/v4.4.3/src/commands/setup/splash.ts)_
 <!-- commandsstop -->

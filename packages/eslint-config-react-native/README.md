@@ -1,22 +1,22 @@
-# @derniercri/eslint-config-react-native
+# @dbenfouzari/eslint-config-react-native
 
 ## Installation
 
 ```shell
-yarn add -D @derniercri/eslint-config-react-native
+yarn add -D @dbenfouzari/eslint-config-react-native
 ```
 
 or if you are using npm
 
 ```shell
-npm i -D @derniercri/eslint-config-react-native
+npm i -D @dbenfouzari/eslint-config-react-native
 ```
 
 Enable it by inserting in your project
 
 ```json
 {
-  "extends": ["@derniercri/react-native"]
+  "extends": ["@dbenfouzari/react-native"]
 }
 ```
 
@@ -26,7 +26,7 @@ Aka
 
 ```json
 {
-  "extends": ["@derniercri/react-native"]
+  "extends": ["@dbenfouzari/react-native"]
 }
 ```
 
@@ -70,16 +70,16 @@ Benefits are multiple : it will avoid many conflits caused by a committer that i
 
 I personnaly enable it on every project I work on, and I can't do without it.
 
-### `@derniercri/eslint-plugin-i18n`
+### `@dbenfouzari/eslint-plugin-i18n`
 
 It's `off` by default.
 You can enable it by doing
 
 ```json
 {
-  "extends": ["@derniercri/i18n"],
+  "extends": ["@dbenfouzari/i18n"],
   "rules": {
-    "@derniercri/i18n/no-child-string": ["error"]
+    "@dbenfouzari/i18n/no-child-string": ["error"]
   }
 }
 ```

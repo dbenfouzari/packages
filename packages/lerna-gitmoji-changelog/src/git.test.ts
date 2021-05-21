@@ -28,12 +28,12 @@ lerna.json
 packages/cli-tools/package.json
 packages/eslint-config-react-native/package.json
 packages/eslint-plugin-i18n/package.json
-packages/react-native-template-derniercri/package.json
+packages/react-native-template-dbenfouzari/package.json
 2458c93 :white_check_mark: Better tests
 packages/eslint-config-react-native/__tests__/index.test.js
 packages/eslint-config-react-native/example/recommended-example.tsx
 packages/eslint-config-react-native/src/configs/default.js
-packages/react-native-template-derniercri/template/_eslintrc.js`;
+packages/react-native-template-dbenfouzari/template/_eslintrc.js`;
       const execSync = jest.fn().mockImplementation(() => snippet);
       childProcess.execSync = execSync;
 

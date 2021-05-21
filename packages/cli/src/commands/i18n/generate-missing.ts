@@ -16,7 +16,7 @@ type Context = {
 
 /**
  * My personal test command
- * (cd packages/cli && yarn derniercri i18n:generate-missing -d ../react-native-i18n/example/src/i18n/dictionaries --src ../react-native-i18n/example/src)
+ * (cd packages/cli && yarn dbenfouzari i18n:generate-missing -d ../react-native-i18n/example/src/i18n/dictionaries --src ../react-native-i18n/example/src)
  */
 
 export default class I18NGenerateMissing extends Command {
@@ -32,7 +32,7 @@ export default class I18NGenerateMissing extends Command {
     src: flags.string({ description: "Your source path", default: "./src" }),
   };
 
-  static examples = [`$ derniercri i18n:generate-missing -d ./src/i18n/dictionaries`];
+  static examples = [`$ dbenfouzari i18n:generate-missing -d ./src/i18n/dictionaries`];
 
   async run() {
     const { flags } = this.parse(I18NGenerateMissing);

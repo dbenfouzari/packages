@@ -1,10 +1,10 @@
 {
-  "name": "@derniercri/cli",
+  "name": "@dbenfouzari/cli",
   "description": "Some CLI to help your development process",
   "version": "4.4.3",
   "author": "Donovan BENFOUZARI <d.benfouzari@gmail.com>",
   "bin": {
-    "derniercri": "./bin/run",
+    "dbenfouzari": "./bin/run",
     "dc": "./bin/run"
   },
   "dependencies": {
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/derniercri/packages.git",
+    "url": "git+https://github.com/dbenfouzari/packages.git",
     "directory": "packages/cli"
   },
   "engines": {
@@ -47,9 +47,9 @@
     "/oclif.manifest.json"
   ],
   "bugs": {
-    "url": "https://github.com/derniercri/packages/issues"
+    "url": "https://github.com/dbenfouzari/packages/issues"
   },
-  "homepage": "https://github.com/derniercri/packages/tree/master/packages/cli#readme",
+  "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/cli#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -60,7 +60,7 @@
   "main": "lib/index.js",
   "oclif": {
     "commands": "./lib/commands",
-    "bin": "derniercri",
+    "bin": "dbenfouzari",
     "plugins": [
       "@oclif/plugin-help"
     ],

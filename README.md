@@ -11,26 +11,26 @@ Since the packages are stored into [Github Packages](https://github.com/features
 1. In a command line, type
 
 ```shell script
-npm login --registry=https://npm.pkg.github.com/ --scope=@derniercri
+npm login --registry=https://npm.pkg.github.com/ --scope=@dbenfouzari
 ```
 
 2. Add a `.npmrc` file to your project, that contains
 
-   > @derniercri:registry=https://npm.pkg.github.com
+   > @dbenfouzari:registry=https://npm.pkg.github.com
 
 3. Install the desired package
 
 ```shell script
-yarn add @derniercri/YOUR_PACKAGE
+yarn add @dbenfouzari/YOUR_PACKAGE
 ```
 
-### If you love DernierCri packages (or don't want to worry about it again)
+### If you love dbenfouzari packages (or don't want to worry about it again)
 
 Instead of using project's `.npmrc` file, you can edit your `~/.npmrc` and add/edit these lines :
 
 ```
 //npm.pkg.github.com/:_authToken=YOUR_TOKEN
-@derniercri:registry=https://npm.pkg.github.com
+@dbenfouzari:registry=https://npm.pkg.github.com
 ```
 
 ## Release a new version

@@ -9,7 +9,7 @@ updates:
       - "dbenfouzari"
 
   - package-ecosystem: npm
-    directory: "/packages/react-native-template-derniercri/template/"
+    directory: "/packages/react-native-template-dbenfouzari/template/"
     schedule:
       interval: "daily"
     assignees:

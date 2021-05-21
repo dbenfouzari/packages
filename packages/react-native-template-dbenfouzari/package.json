@@ -1,5 +1,5 @@
 {
-  "name": "@derniercri/react-native-template-derniercri",
+  "name": "@dbenfouzari/react-native-template-dbenfouzari",
   "version": "4.4.1",
   "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
   "files": [
@@ -8,8 +8,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/derniercri/packages.git",
-    "directory": "packages/react-native-template-derniercri"
+    "url": "git+https://github.com/dbenfouzari/packages.git",
+    "directory": "packages/react-native-template-dbenfouzari"
   },
   "keywords": [
     "react-native",
@@ -22,10 +22,10 @@
   "author": "Donovan BENFOUZARI <d.benfouzari@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/derniercri/packages/issues"
+    "url": "https://github.com/dbenfouzari/packages/issues"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "homepage": "https://github.com/derniercri/packages/tree/master/packages/react-native-template-derniercri#readme"
+  "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/react-native-template-dbenfouzari#readme"
 }

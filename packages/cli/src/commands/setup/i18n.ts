@@ -46,10 +46,10 @@ export default class SetupI18N extends Command {
 
           const asJson = JSON.parse(currentEslintRc);
 
-          asJson.extends = [...new Set([...(asJson.extends || []), "@derniercri/react-native"])];
+          asJson.extends = [...new Set([...(asJson.extends || []), "@dbenfouzari/react-native"])];
           asJson.rules = {
             ...(asJson.rules || {}),
-            "@derniercri/i18n/no-child-string": ["error"],
+            "@dbenfouzari/i18n/no-child-string": ["error"],
           };
           asJson.overrides = asJson.overrides || [];
 
@@ -59,12 +59,12 @@ export default class SetupI18N extends Command {
           );
 
           if (lineIndex > -1) {
-            asJson.overrides[lineIndex].rules["@derniercri/i18n/no-child-string"] = "off";
+            asJson.overrides[lineIndex].rules["@dbenfouzari/i18n/no-child-string"] = "off";
           } else {
             asJson.overrides.push({
               files: ["*.test.tsx", "*.stories.tsx"],
               rules: {
-                "@derniercri/i18n/no-child-string": "off",
+                "@dbenfouzari/i18n/no-child-string": "off",
               },
             });
           }
@@ -80,10 +80,10 @@ export default class SetupI18N extends Command {
           const packageJsonJson = JSON.parse(packageJson);
 
           return Object.keys(packageJsonJson.devDependencies || {}).includes(
-            "@derniercri/eslint-config-react-native"
+            "@dbenfouzari/eslint-config-react-native"
           );
         },
-        task: () => execa.command("yarn add -D @derniercri/eslint-config-react-native"),
+        task: () => execa.command("yarn add -D @dbenfouzari/eslint-config-react-native"),
       },
       {
         title: "Install i18n package",
@@ -92,10 +92,10 @@ export default class SetupI18N extends Command {
           const packageJsonJson = JSON.parse(packageJson);
 
           return Object.keys(packageJsonJson.dependencies || {}).includes(
-            "@derniercri/react-native-i18n"
+            "@dbenfouzari/react-native-i18n"
           );
         },
-        task: () => execa.command("yarn add @derniercri/react-native-i18n react-native-localize"),
+        task: () => execa.command("yarn add @dbenfouzari/react-native-i18n react-native-localize"),
       },
       {
         title: "Configure ESLint plugin",
@@ -131,7 +131,7 @@ export default class SetupI18N extends Command {
 
                 fs.writeFileSync(
                   "./src/i18n/index.ts",
-                  `import I18n from "@derniercri/react-native-i18n";
+                  `import I18n from "@dbenfouzari/react-native-i18n";
 
 import en from "./dictionaries/en.json";
 import fr from "./dictionaries/fr.json";

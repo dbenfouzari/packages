@@ -1,4 +1,4 @@
-# @derniercri/react-native-i18n
+# @dbenfouzari/react-native-i18n
 
 ```json5
 // src/i18n/dictionaries/en.json
@@ -19,7 +19,7 @@
 ```ts
 // src/i18n/index.ts
 
-import I18n from "@derniercri/react-native-i18n";
+import I18n from "@dbenfouzari/react-native-i18n";
 
 import en from "./dictionaries/en.json";
 import fr from "./dictionaries/fr.json";
@@ -50,7 +50,7 @@ const App = () => (
 export default App;
 ```
 
-- [@derniercri/react-native-i18n](#derniercrireact-native-i18n)
+- [@dbenfouzari/react-native-i18n](#dbenfouzarireact-native-i18n)
 - [Usage](#usage)
 - [Commands](#commands)
 
@@ -59,7 +59,7 @@ export default App;
 Install it with
 
 ```shell script
-$ yarn add @derniercri/react-native-i18n react-native-localize
+$ yarn add @dbenfouzari/react-native-i18n react-native-localize
 ```
 
 ## Configuration
@@ -69,7 +69,7 @@ You must configure this package to be able to use it.
 Create a file :
 
 ```typescript
-import I18n from "@derniercri/react-native-i18n";
+import I18n from "@dbenfouzari/react-native-i18n";
 
 import en from "./dictionaries/en.json";
 import fr from "./dictionaries/fr.json";

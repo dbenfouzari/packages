@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@derniercri/cli-tools@../":
+"@dbenfouzari/cli-tools@../":
   version "2.0.0"
   dependencies:
     inquirer "^7.3.3"

@@ -1,4 +1,4 @@
-import I18n from "@derniercri/react-native-i18n";
+import I18n from "@dbenfouzari/react-native-i18n";
 
 import en from "./dictionaries/en.json";
 import fr from "./dictionaries/fr.json";

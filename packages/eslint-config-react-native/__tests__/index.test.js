@@ -120,7 +120,7 @@ describe("With i18n", () => {
     ...baseConfig,
     rules: {
       ...(baseConfig.rules || {}),
-      "@derniercri/i18n/no-child-string": ["error"],
+      "@dbenfouzari/i18n/no-child-string": ["error"],
     },
   };
 
@@ -202,7 +202,7 @@ describe("With i18n", () => {
             endColumn: 14,
           },
           {
-            ruleId: "@derniercri/i18n/no-child-string",
+            ruleId: "@dbenfouzari/i18n/no-child-string",
             severity: 2,
             message: "Raw text `Hello world` cannot be used as children",
             line: 12,
@@ -234,7 +234,7 @@ describe("With i18n", () => {
             endColumn: 15,
           },
           {
-            ruleId: "@derniercri/i18n/no-child-string",
+            ruleId: "@dbenfouzari/i18n/no-child-string",
             severity: 2,
             message: "Raw text `Hello world` cannot be used as children",
             line: 13,

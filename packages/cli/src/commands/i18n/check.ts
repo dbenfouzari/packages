@@ -6,7 +6,7 @@ import get from "lodash.get";
 import { getFiles } from "../../utils/i18n";
 
 // My personal test command
-// (cd packages/cli && yarn derniercri i18n:check -d ../react-native-i18n/example/src/i18n/dictionaries --src ../react-native-i18n/example/src)
+// (cd packages/cli && yarn dbenfouzari i18n:check -d ../react-native-i18n/example/src/i18n/dictionaries --src ../react-native-i18n/example/src)
 
 export default class I18NCheck extends Command {
   static description = "Checks your code for missing translations";
@@ -21,7 +21,7 @@ export default class I18NCheck extends Command {
     src: flags.string({ description: "Your source path", default: "./src" }),
   };
 
-  static examples = [`$ derniercri i18n:check -d ./src/i18n/dictionaries`];
+  static examples = [`$ dbenfouzari i18n:check -d ./src/i18n/dictionaries`];
 
   async run() {
     const { flags } = this.parse(I18NCheck);

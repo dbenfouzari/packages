@@ -1,19 +1,19 @@
 {
-  "name": "@derniercri/eslint-config-react-native",
+  "name": "@dbenfouzari/eslint-config-react-native",
   "version": "4.4.0",
   "description": "React-Native ESLint config",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/derniercri/packages.git",
+    "url": "git+https://github.com/dbenfouzari/packages.git",
     "directory": "packages/eslint-config-react-native"
   },
   "author": "Donovan BENFOUZARI <d.benfouzari@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/derniercri/packages/issues"
+    "url": "https://github.com/dbenfouzari/packages/issues"
   },
-  "homepage": "https://github.com/derniercri/packages/tree/master/packages/eslint-config-react-native#readme",
+  "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/eslint-config-react-native#readme",
   "scripts": {
     "build": "babel --source-maps --no-comments --quiet --root-mode upward --extensions \".js,.ts\" src -d lib"
   },
@@ -23,7 +23,7 @@
     "typescript": ">= 3"
   },
   "dependencies": {
-    "@derniercri/eslint-plugin-i18n": "^4.1.0",
+    "@dbenfouzari/eslint-plugin-i18n": "^4.1.0",
     "@react-native-community/eslint-config": "2.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-react-native": "^4.1.0",

@@ -1,10 +1,10 @@
 {
-  "name": "@derniercri/lerna-gitmoji-changelog",
+  "name": "@dbenfouzari/lerna-gitmoji-changelog",
   "version": "4.4.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/derniercri/packages.git",
+    "url": "git+https://github.com/dbenfouzari/packages.git",
     "directory": "packages/lerna-gitmoji-changelog"
   },
   "bin": {
@@ -17,12 +17,12 @@
   "author": "Donovan BENFOUZARI <d.benfouzari@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/derniercri/packages/issues"
+    "url": "https://github.com/dbenfouzari/packages/issues"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "homepage": "https://github.com/derniercri/packages/tree/master/packages/lerna-gitmoji-changelog#readme",
+  "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/lerna-gitmoji-changelog#readme",
   "dependencies": {
     "semver": "^7.3.2"
   },

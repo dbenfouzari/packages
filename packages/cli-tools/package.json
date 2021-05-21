@@ -1,10 +1,10 @@
 {
-  "name": "@derniercri/cli-tools",
+  "name": "@dbenfouzari/cli-tools",
   "version": "4.4.0",
   "description": "Some wonderful tools :)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/derniercri/packages.git",
+    "url": "git+https://github.com/dbenfouzari/packages.git",
     "directory": "packages/cli-tools"
   },
   "author": "Donovan BENFOUZARI <d.benfouzari@gmail.com>",
@@ -13,9 +13,9 @@
     "build": "babel --source-maps --no-comments --quiet --root-mode upward --extensions \".js,.ts\" src -d lib"
   },
   "bugs": {
-    "url": "https://github.com/derniercri/packages/issues"
+    "url": "https://github.com/dbenfouzari/packages/issues"
   },
-  "homepage": "https://github.com/derniercri/packages/tree/master/packages/cli-tools#readme",
+  "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/cli-tools#readme",
   "browserslist": "> 0.25%, not dead",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

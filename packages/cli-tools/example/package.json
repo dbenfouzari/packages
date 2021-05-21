@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@derniercri/cli-tools": "../"
+    "@dbenfouzari/cli-tools": "../"
   }
 }

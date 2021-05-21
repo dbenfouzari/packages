@@ -22,13 +22,13 @@ export default class NativeComponent extends Command {
 
   static examples = [
     `# By passing arguments
-  $ derniercri generate:native-component button src/components
+  $ dbenfouzari generate:native-component button src/components
 `,
     `# By passing flags
-  $ derniercri generate:native-component --name=button --path=src/components
+  $ dbenfouzari generate:native-component --name=button --path=src/components
 `,
     `# By following wizard
-  $ derniercri generate:native-component
+  $ dbenfouzari generate:native-component
 
   ? What is the component name ? button
   ? Select a target directory src/components/

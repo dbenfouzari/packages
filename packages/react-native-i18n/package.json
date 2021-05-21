@@ -1,5 +1,5 @@
 {
-  "name": "@derniercri/react-native-i18n",
+  "name": "@dbenfouzari/react-native-i18n",
   "description": "Easy i18n for your react-native app",
   "version": "4.4.2",
   "author": "Donovan BENFOUZARI <d.benfouzari@gmail.com>",
@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/derniercri/packages.git",
+    "url": "git+https://github.com/dbenfouzari/packages.git",
     "directory": "packages/react-native-i18n"
   },
   "bugs": {
-    "url": "https://github.com/derniercri/packages/issues"
+    "url": "https://github.com/dbenfouzari/packages/issues"
   },
-  "homepage": "https://github.com/derniercri/packages/tree/master/packages/react-native-i18n#readme",
+  "homepage": "https://github.com/dbenfouzari/packages/tree/master/packages/react-native-i18n#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
