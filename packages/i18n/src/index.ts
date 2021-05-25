@@ -66,7 +66,11 @@ class I18n<L extends LanguageKey, D extends Dictionaries<L> = Dictionaries<L>> {
     if (this.useCache && this.readCache(this.languageKey, key, variables))
       return this.readCache(this.languageKey, key, variables);
 
-    const originalString = this.dictionaries[this.languageKey][key];
+    const languageDictionary = this.dictionaries[this.languageKey];
+    const originalString = languageDictionary && languageDictionary[key];
+
+    if (!originalString)
+      return `[missing translation] - key : ${key} - language : ${this.languageKey}`;
 
     const msg = new IntlMessageFormat(originalString, this.languageKey);
     const result = msg.format(variables);

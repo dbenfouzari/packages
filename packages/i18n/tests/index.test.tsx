@@ -125,4 +125,12 @@ describe("i18n", () => {
     // @ts-expect-error Because `_cache` is private
     expect(i18n._cache).toEqual({});
   });
+
+  it("should not throw any error when key not exist", () => {
+    const i18n = new I18n<Langs, Dicts>({ dictionaries: dicts, lang: Langs.FR });
+
+    expect(() => {
+      i18n.t("toto");
+    }).not.toThrow();
+  });
 });
