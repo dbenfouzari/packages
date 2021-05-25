@@ -1,7 +1,7 @@
 {
-  "name": "@dbenfouzari/i18n",
+  "name": "@dbenfouzari/react-i18n",
   "description": "Easy i18n for your React app",
-  "version": "5.0.2",
+  "version": "5.0.1",
   "author": "Donovan BENFOUZARI <d.benfouzari@gmail.com>",
   "scripts": {
     "build": "babel --source-maps --no-comments --quiet --root-mode upward --extensions \".js,.ts\" src -d lib",
@@ -23,12 +23,11 @@
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "dependencies": {
-    "fast-deep-equal": "^3.1.3",
-    "intl-messageformat": "^9.6.15"
-  },
   "devDependencies": {
     "@types/react": "^17.0.6",
     "react": "^17.0.2"
+  },
+  "dependencies": {
+    "@dbenfouzari/i18n": "^5.0.1"
   }
 }
