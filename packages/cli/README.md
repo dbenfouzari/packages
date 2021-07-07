@@ -3,14 +3,16 @@
 Some CLI to help your development process
 
 <!-- toc -->
-* [@dbenfouzari/cli](#dbenfouzaricli)
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [@dbenfouzari/cli](#dbenfouzaricli)
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
 
 # Usage
 
 <!-- usage -->
+
 ```sh-session
 $ npm install -g @dbenfouzari/cli
 $ dbenfouzari COMMAND
@@ -22,20 +24,22 @@ USAGE
   $ dbenfouzari COMMAND
 ...
 ```
+
 <!-- usagestop -->
 
 # Commands
 
 <!-- commands -->
-* [`dbenfouzari generate:component [NAME] [PATH]`](#dbenfouzari-generatecomponent-name-path)
-* [`dbenfouzari generate:native-component [NAME] [PATH]`](#dbenfouzari-generatenative-component-name-path)
-* [`dbenfouzari help [COMMAND]`](#dbenfouzari-help-command)
-* [`dbenfouzari i18n:check`](#dbenfouzari-i18ncheck)
-* [`dbenfouzari i18n:generate-missing`](#dbenfouzari-i18ngenerate-missing)
-* [`dbenfouzari setup:fastlane`](#dbenfouzari-setupfastlane)
-* [`dbenfouzari setup:i18n`](#dbenfouzari-setupi18n)
-* [`dbenfouzari setup:sentry`](#dbenfouzari-setupsentry)
-* [`dbenfouzari setup:splash`](#dbenfouzari-setupsplash)
+
+- [`dbenfouzari generate:component [NAME] [PATH]`](#dbenfouzari-generatecomponent-name-path)
+- [`dbenfouzari generate:native-component [NAME] [PATH]`](#dbenfouzari-generatenative-component-name-path)
+- [`dbenfouzari help [COMMAND]`](#dbenfouzari-help-command)
+- [`dbenfouzari i18n:check`](#dbenfouzari-i18ncheck)
+- [`dbenfouzari i18n:generate-missing`](#dbenfouzari-i18ngenerate-missing)
+- [`dbenfouzari setup:fastlane`](#dbenfouzari-setupfastlane)
+- [`dbenfouzari setup:i18n`](#dbenfouzari-setupi18n)
+- [`dbenfouzari setup:sentry`](#dbenfouzari-setupsentry)
+- [`dbenfouzari setup:splash`](#dbenfouzari-setupsplash)
 
 ## `dbenfouzari generate:component [NAME] [PATH]`
 
@@ -217,4 +221,5 @@ OPTIONS
 ```
 
 _See code: [src/commands/setup/splash.ts](https://github.com/dbenfouzari/packages/blob/v5.1.0/src/commands/setup/splash.ts)_
+
 <!-- commandsstop -->
