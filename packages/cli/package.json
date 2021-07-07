@@ -1,7 +1,7 @@
 {
   "name": "@dbenfouzari/cli",
   "description": "Some CLI to help your development process",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "author": "Donovan BENFOUZARI <d.benfouzari@gmail.com>",
   "bin": {
     "dbenfouzari": "./bin/run",

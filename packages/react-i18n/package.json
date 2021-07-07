@@ -1,7 +1,7 @@
 {
   "name": "@dbenfouzari/react-i18n",
   "description": "Easy i18n for your React app",
-  "version": "5.0.1",
+  "version": "5.1.1",
   "author": "Donovan BENFOUZARI <d.benfouzari@gmail.com>",
   "scripts": {
     "build": "babel --source-maps --no-comments --quiet --root-mode upward --extensions \".js,.ts\" src -d lib",
@@ -28,6 +28,6 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@dbenfouzari/i18n": "^5.0.1"
+    "@dbenfouzari/i18n": "^5.1.1"
   }
 }
