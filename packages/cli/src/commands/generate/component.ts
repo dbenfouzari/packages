@@ -3,16 +3,16 @@ import * as inquirer from "inquirer";
 import * as fs from "fs";
 import { toCamelCase, toKebabCase } from "../../utils/string";
 import {
-  generateNativeComponentFile,
+  generateComponentFile,
   generateIndexFile,
-  generateNativeStoryFile,
-  generateNativeTestFile,
+  generateStoryFile,
+  generateTestFile,
 } from "../../utils/generator";
 
 inquirer.registerPrompt("fuzzypath", require("inquirer-fuzzy-path"));
 
-export default class NativeComponent extends Command {
-  static description = "Generate a React Native component in desired folder";
+export default class Component extends Command {
+  static description = "Generate a React component in desired folder";
 
   static flags = {
     help: flags.help({ char: "h" }),
@@ -22,13 +22,13 @@ export default class NativeComponent extends Command {
 
   static examples = [
     `# By passing arguments
-  $ dbenfouzari generate:native-component button src/components
+  $ dbenfouzari generate:component button src/components
 `,
     `# By passing flags
-  $ dbenfouzari generate:native-component --name=button --path=src/components
+  $ dbenfouzari generate:component --name=button --path=src/components
 `,
     `# By following wizard
-  $ dbenfouzari generate:native-component
+  $ dbenfouzari generate:component
 
   ? What is the component name ? button
   ? Select a target directory src/components/
@@ -51,7 +51,7 @@ export default class NativeComponent extends Command {
   ];
 
   async run() {
-    const { args, flags } = this.parse(NativeComponent);
+    const { args, flags } = this.parse(Component);
 
     let name;
     let path;
@@ -101,15 +101,15 @@ export default class NativeComponent extends Command {
     fs.writeFileSync(`${fullDestination}/index.ts`, generateIndexFile(folderName));
     fs.writeFileSync(
       `${fullDestination}/${folderName}.tsx`,
-      generateNativeComponentFile(finalComponentName)
+      generateComponentFile(finalComponentName)
     );
     fs.writeFileSync(
       `${fullDestination}/${folderName}.test.tsx`,
-      generateNativeTestFile(finalComponentName, folderName)
+      generateTestFile(finalComponentName, folderName)
     );
     fs.writeFileSync(
       `${fullDestination}/${folderName}.stories.tsx`,
-      generateNativeStoryFile(finalComponentName)
+      generateStoryFile(finalComponentName, folderName)
     );
 
     this.log(`Component name is ${name} and will be stored in ${path}`);
