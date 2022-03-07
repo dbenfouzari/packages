@@ -28,7 +28,7 @@
     "@types/lodash.get": "^4.4.6",
     "@types/lodash.set": "^4.3.6",
     "@types/node": "^14",
-    "globby": "^11",
+    "globby": "11.1.0",
     "ts-node": "^9",
     "typescript": "^3.3"
   },
