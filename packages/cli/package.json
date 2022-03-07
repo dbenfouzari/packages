@@ -22,7 +22,7 @@
     "tslib": "^2"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1",
+    "@oclif/dev-cli": "1.26.10",
     "@types/inquirer": "^7.3.1",
     "@types/listr": "^0.14.2",
     "@types/lodash.get": "^4.4.6",
