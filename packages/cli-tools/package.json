@@ -27,10 +27,10 @@
     "generate-react-component": "lib/generate-react-component.js"
   },
   "dependencies": {
-    "inquirer": "^7.3.3",
-    "inquirer-fuzzy-path": "^2.3.0"
+    "inquirer": "7.3.3",
+    "inquirer-fuzzy-path": "2.3.0"
   },
   "devDependencies": {
-    "@types/inquirer": "^7.3.1"
+    "@types/inquirer": "7.3.1"
   }
 }

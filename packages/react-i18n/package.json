@@ -24,8 +24,8 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "devDependencies": {
-    "@types/react": "^17.0.6",
-    "react": "^17.0.2"
+    "@types/react": "17.0.6",
+    "react": "17.0.2"
   },
   "dependencies": {
     "@dbenfouzari/i18n": "^5.1.1"
